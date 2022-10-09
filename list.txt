@@ -1,0 +1,40 @@
+4889248    PRO    START    0000
+4889248        LDA    IN
+4889248        COMP    #0
+4889248        JGT    FIN
+4889248        JEQ    FIN
+4889248    MIN    LDCH    =C'-'
+4889248        TD    OUT
+4889248        JEQ    MIN
+4889248        WD    OUT
+4889248        LDA    IN
+4889248        MUL    MINS
+4889248    FIN    STA    IN
+4889248        LDX    #0
+4889248        LDT    #1
+4889248    DIVLOOP    RMO    A,S
+4889248        DIV    #10
+4889248        ADDR    T,X
+4889248        COMP    #0
+4889248        JGT    DIVLOOP
+4889248        RMO    S,A
+4889248        ADD    #48
+4889248    WRITE    TD    OUT
+4889248        JEQ    WRITE
+4889248        WD    OUT
+4889248        RMO    S,A
+4889248    MULLOOP    MUL    #10
+4889248        SUBR    T,X
+4889248        COMPR    X,T
+4889248        JGT    MULLOOP
+4889248        STA    N
+4889248        LDA    IN
+4889248        SUB    N
+4889248        COMP    #0
+4889248        JGT    FIN
+4889248        J    *
+4889248    OUT    BYTE    X'05'
+4889248    IN    WORD    -163
+4889248    MINS    WORD    -1
+4889248    N    WORD    0
+4889248        END    

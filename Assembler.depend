@@ -1,0 +1,137 @@
+# depslib dependency file v1.0
+1462107111 source:c:\my own programs\my c programs\assembler\main.cpp
+	<iostream>
+	<map>
+
+1462107110 
+
+1462064631 source:c:\my own programs\my c programs\assembler\src\filereader.cpp
+	"FileReader.h"
+	"statement.h"
+	"instruction.h"
+	<fstream>
+	<map>
+	<vector>
+	<string>
+	<regex>
+	<locale>
+	<cstdlib>
+
+1462065288 
+
+1461972707 c:\my own programs\my c programs\assembler\include\filereader.h
+	<map>
+	<vector>
+	<string>
+
+1462102328 c:\my own programs\my c programs\assembler\include\statement.h
+	<string>
+
+1461972780 c:\my own programs\my c programs\assembler\include\instruction.h
+
+1462065252 source:c:\my own programs\my c programs\assembler\src\filewriter.cpp
+	"FileWriter.h"
+	"Statement.h"
+	<vector>
+	<string>
+	<fstream>
+	<sstream>
+	<iomanip>
+
+1462065288 c:\my own programs\my c programs\assembler\include\filewriter.h
+	"Statement.h"
+	<vector>
+	<string>
+
+1462106844 source:c:\my own programs\my c programs\assembler\src\pass1core.cpp
+	"Pass1Core.h"
+
+1462106844 .h"
+
+1462107111 c:\my own programs\my c programs\assembler\include\pass1core.h
+	<map>
+	<vector>
+	"Statement.h"
+	<Instruction.h>
+	"FileReader.h"
+
+1462107111 r.h"
+
+1462107110 source:e:\making\programming\c++projects\assembler\main.cpp
+	<iostream>
+	<map>
+
+1462064630 source:e:\making\programming\c++projects\assembler\src\filereader.cpp
+	"FileReader.h"
+	"statement.h"
+	"instruction.h"
+	<fstream>
+	<map>
+	<vector>
+	<string>
+	<regex>
+	<locale>
+	<cstdlib>
+
+1461972706 e:\making\programming\c++projects\assembler\include\filereader.h
+	<map>
+	<vector>
+	<string>
+
+1462102328 e:\making\programming\c++projects\assembler\include\statement.h
+	<string>
+
+1461972780 e:\making\programming\c++projects\assembler\include\instruction.h
+
+1462065252 source:e:\making\programming\c++projects\assembler\src\filewriter.cpp
+	"FileWriter.h"
+	"Statement.h"
+	<vector>
+	<string>
+	<fstream>
+	<sstream>
+	<iomanip>
+
+1462065288 e:\making\programming\c++projects\assembler\include\filewriter.h
+	"Statement.h"
+	<vector>
+	<string>
+
+1462107110 source:/media/ahmed/AHMED/Making/Programming/C++Projects/Assembler/main.cpp
+	<iostream>
+	<map>
+
+1462064630 source:/media/ahmed/AHMED/Making/Programming/C++Projects/Assembler/src/FileReader.cpp
+	"FileReader.h"
+	"statement.h"
+	"instruction.h"
+	<fstream>
+	<map>
+	<vector>
+	<string>
+	<regex>
+	<locale>
+	<cstdlib>
+
+1461972706 /media/ahmed/AHMED/Making/Programming/C++Projects/Assembler/include/FileReader.h
+	<map>
+	<vector>
+	<string>
+
+1462065252 source:/media/ahmed/AHMED/Making/Programming/C++Projects/Assembler/src/FileWriter.cpp
+	"FileWriter.h"
+	"Statement.h"
+	<vector>
+	<string>
+	<fstream>
+	<sstream>
+	<iomanip>
+
+1462065288 /media/ahmed/AHMED/Making/Programming/C++Projects/Assembler/include/FileWriter.h
+	"Statement.h"
+	<vector>
+	<string>
+
+1462102328 /media/ahmed/AHMED/Making/Programming/C++Projects/Assembler/include/Statement.h
+	<string>
+
